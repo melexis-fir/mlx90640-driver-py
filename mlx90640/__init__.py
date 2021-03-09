@@ -3,7 +3,7 @@ from .mlx90640 import MLX90640
 __import__('pkg_resources').declare_namespace(__name__)
 
 
-__version__ = '1.1.1'
+__version__ = '1.1.2'
 
 
 # try to pre-load our 3 default I2C low level implementations!
