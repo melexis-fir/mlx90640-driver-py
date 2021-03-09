@@ -61,7 +61,7 @@ class MLX90640:
         self.eeprom_data = (ctypes.c_uint16 * 832)()
         self.frame_data = (ctypes.c_uint16 * 834)()
         self.params = ParamsMLX90640()
-        self.mlx90640_to = (ctypes.c_float * 192)()
+        self.mlx90640_to = (ctypes.c_float * 768)()
 
         # Extract functions from shared libraries
         self._i2c_init = lib_mlx90640.MLX90640_I2CInit
